@@ -175,3 +175,37 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.rocket_league {
+  width: 480px;
+  height: 320px;
+}
+
+.overwatch {
+  width: 320px;
+  height: 480px;
+}
+
+.csgo {
+  width: 480px;
+  height: 320px;
+}
+
+.smite {
+  width: 480px;
+  height: 480px;
+}
+
+.war_thunder {
+  width: 480px;
+  height: 270px;
+}
+
+.league_of_legends {
+  width: 480px;
+  height: 320px;
+}
+
+.hearthstone {
+  width: 480px;
+  height: 175px;
+}
