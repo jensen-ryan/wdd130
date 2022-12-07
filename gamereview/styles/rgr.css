@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 2em;
+}
+
+#background {
+    height: 725px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+
+}
+
+.home-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #dddddd; 
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#dddddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+}
+
+#background {
+    background-color: #dddddd;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.profile {
+    background-color: #dddddd;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    padding: 35px;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    text-align: center;
+}
+
+.review-profile {
+    background-color: #dddddd;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    grid-column: 1/2;
+    grid-row: 19/20;
+    text-align: center;
+    align-self: center;
+}
+
+
+footer {
+    background-color: #dddddd;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 2em;
+    column-gap: 2em;
+}
+
+.steam-logo {
+    width: 100%;
+}
+
+.welcome-text {
+    grid-column: 3/9;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 125px;
+}
+
+.why-do-i-text {
+    text-align: center;
+    font-size: 1.2em;
+    grid-column: 3/9;
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+
+.steam-logo-link {
+    grid-column: 6/10;
+    grid-row: 6/7;
+    padding-left: 50px;
+}
+
+.review-steam-logo-link {
+    grid-column: 2/3;
+    grid-row: 19/20;
+    padding-left: 50px;
+}
+
+.reviews-title {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 2.8em;
+}
+
+.rocket-league-image {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.rocket-league-content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.overwatch-image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+}
+
+.overwatch-content {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.rainbow6siege {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.csgo-image {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 100%;
+}
+
+.csgo-content {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.smite-image {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    width: 100%;
+}
+
+.smite-content {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.war-thunder-image {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    width: 100%;
+}
+
+.war-thunder-content {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.lol-image {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    width: 100%;
+}
+
+.league-of-legends-content {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.hearthstone-image {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    width: 100%;
+}
+
+.hearthstone-content {
+    grid-column: 2/3;
+    grid-row: 9/10;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    .review-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .welcome-text { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .steam-logo, .steam-logo-link {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
