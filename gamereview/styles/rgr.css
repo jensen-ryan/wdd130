@@ -20,10 +20,6 @@ h1, h2, h3, h4, h5 {
     font-family: 'Lato', sans-serif;
 }
 
-h4 {
-
-}
-
 .home-title {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
@@ -76,8 +72,19 @@ nav a:hover {
     grid-row: 19/20;
     text-align: center;
     align-self: center;
+    font-size: 1.5em;
 }
 
+.game-time-profile {
+    background-color: #dddddd;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    grid-column: 1/2;
+    grid-row: 7/8;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5em;
+}
 
 footer {
     background-color: #dddddd;
@@ -96,6 +103,10 @@ footer {
     width: 100%;
 }
 
+#game-chart-img {
+    width: 100%;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -104,8 +115,8 @@ footer {
 .reviews-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    row-gap: 2em;
-    column-gap: 2em;
+    row-gap: 50px;
+    column-gap: 25px;
 }
 
 .steam-logo {
@@ -147,10 +158,18 @@ footer {
     font-size: 2.8em;
 }
 
+.game-time-title {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 2.8em;
+}
+
 .rocket-league-image {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
+    align-self: center;
 }
 
 .rocket-league-content {
@@ -159,12 +178,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .overwatch-image {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 100%;
+    align-self: center;
 }
 
 .overwatch-content {
@@ -173,6 +194,7 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .rainbow6siege {
@@ -181,12 +203,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .csgo-image {
     grid-column: 1/2;
     grid-row: 5/6;
     width: 100%;
+    align-self: center;
 }
 
 .csgo-content {
@@ -195,12 +219,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .smite-image {
     grid-column: 1/2;
     grid-row: 6/7;
     width: 100%;
+    align-self: center;
 }
 
 .smite-content {
@@ -209,12 +235,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .war-thunder-image {
     grid-column: 1/2;
     grid-row: 7/8;
     width: 100%;
+    align-self: center;
 }
 
 .war-thunder-content {
@@ -223,12 +251,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .lol-image {
     grid-column: 1/2;
     grid-row: 8/9;
     width: 100%;
+    align-self: center;
 }
 
 .league-of-legends-content {
@@ -237,12 +267,14 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
 }
 
 .hearthstone-image {
     grid-column: 1/2;
     grid-row: 9/10;
     width: 100%;
+    align-self: center;
 }
 
 .hearthstone-content {
@@ -251,6 +283,34 @@ footer {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
+}
+
+.game-time-content {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    align-self: center;
+}
+
+.game-chart-image {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: auto;
+}
+
+.chart-content {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    text-align: center;
+    align-self: center;
+    font-size: 2em;
+}
+
+.game-time-steam-logo-link {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    padding-left: 50px;
 }
 
 @media screen and (max-width: 900px) {
